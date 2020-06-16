@@ -1,0 +1,25 @@
+import turtle
+def black_eyes():
+    turtle.screensize(700, 800)
+    turtle.pensize(3)
+    turtle.speed(5)
+turtle.seth(0)
+turtle.goto(-20, 195)
+turtle.fillcolor('#000000')
+turtle.begin_fill()
+turtle.circle(13)
+turtle.end_fill()
+
+turtle.pensize(6)
+turtle.goto(20, 205)
+turtle.seth(75)
+turtle.circle(-10, 150)
+turtle.pensize(3)
+
+turtle.goto(-17, 200)
+turtle.seth(0)
+turtle.fillcolor('#ffffff')
+turtle.begin_fill()
+turtle.circle(5)
+turtle. end_fill()
+turtle.goto(0, 0)
